@@ -87,7 +87,7 @@ class BuildNewBook extends StatelessWidget {
                         ),
                         backgroundColor: Colors.deepOrange,
                         foregroundColor: Colors.white,
-                        minimumSize: Size(5, 5),
+                        minimumSize: const Size(5, 5),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(20),
                         ),
@@ -100,6 +100,7 @@ class BuildNewBook extends StatelessWidget {
             ],
           ),
         ),
+        SizedBox(height: MediaQuery.of(context).padding.bottom)
       ],
     );
   }
